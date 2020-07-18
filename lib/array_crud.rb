@@ -13,13 +13,13 @@ def add_element_to_end_of_array(array, element)
 end
 
 def add_element_to_start_of_array(array, element)
-  cars = ["BMW", "Mercedes", "Volvo", "Toyota"]
+  cars = ["I","am", "really", "learning"]
   cars.unshift ("wow")
   p cars 
 end
 
 def remove_element_from_end_of_array(array)
-  cars = ["BMW", "Mercedes", "Volvo", "Toyota", "arrays!"]
+  cars = ["I","am", "really", "learning" "arrays!"]
   cars.pop ("arrays!")
   p cars 
 end
