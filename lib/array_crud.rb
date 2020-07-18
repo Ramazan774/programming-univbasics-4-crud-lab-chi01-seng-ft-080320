@@ -9,6 +9,7 @@ end
 def add_element_to_end_of_array(array, element)
   cars = ["BMW", "Mercedes", "Volvo", "Toyota"]
   cars.push ("Lexus")
+  p cars 
 end
 
 def add_element_to_start_of_array(array, element)
